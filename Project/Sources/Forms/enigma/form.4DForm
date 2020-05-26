@@ -1,0 +1,321 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "ENIGMA - the infernal encoder",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Image2": {
+					"type": "picture",
+					"top": 17,
+					"left": 60,
+					"width": 253,
+					"height": 111,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image2.jpg"
+				},
+				"Image1": {
+					"type": "picture",
+					"top": 123,
+					"left": 60,
+					"width": 253,
+					"height": 124,
+					"pictureFormat": "scaled",
+					"picture": "Images/Image1.jpg"
+				},
+				"quit": {
+					"type": "button",
+					"top": 439,
+					"left": 737,
+					"width": 118,
+					"height": 36,
+					"action": "cancel",
+					"text": "Close",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"rotor1": {
+					"type": "input",
+					"top": 17,
+					"left": 809,
+					"width": 38,
+					"height": 17,
+					"dataSource": "Form:C1466.rotor1",
+					"dataSourceTypeHint": "number",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/rotor1.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"rotor2": {
+					"type": "input",
+					"top": 36,
+					"left": 809,
+					"width": 38,
+					"height": 17,
+					"dataSource": "Form:C1466.rotor2",
+					"dataSourceTypeHint": "number",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/rotor2.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"rotor3": {
+					"type": "input",
+					"top": 54,
+					"left": 809,
+					"width": 38,
+					"height": 17,
+					"dataSource": "Form:C1466.rotor3",
+					"dataSourceTypeHint": "number",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/rotor3.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"txtRotor1": {
+					"type": "text",
+					"top": 17,
+					"left": 438,
+					"width": 363,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Enter the number of the first selected rotor (1-5) :"
+				},
+				"txtRotor2": {
+					"type": "text",
+					"top": 36,
+					"left": 438,
+					"width": 363,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Enter the number of the second selected rotor (1-5) :"
+				},
+				"txtRotor3": {
+					"type": "text",
+					"top": 54,
+					"left": 438,
+					"width": 363,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Enter the number of the third selected rotor (1-5) :"
+				},
+				"posRotor1": {
+					"type": "input",
+					"top": 97,
+					"left": 809,
+					"width": 38,
+					"height": 17,
+					"dataSource": "Form:C1466.posRotor1",
+					"textAlign": "center",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/posRotor1.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"posRotor2": {
+					"type": "input",
+					"top": 116,
+					"left": 809,
+					"width": 38,
+					"height": 17,
+					"dataSource": "Form:C1466.posRotor2",
+					"textAlign": "center",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/posRotor2.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"posRotor3": {
+					"type": "input",
+					"top": 134,
+					"left": 809,
+					"width": 38,
+					"height": 17,
+					"dataSource": "Form:C1466.posRotor3",
+					"textAlign": "center",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/posRotor3.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"txtRotor4": {
+					"type": "text",
+					"top": 97,
+					"left": 438,
+					"width": 363,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Enter the initial position of the first selected rotor:"
+				},
+				"txtRotor5": {
+					"type": "text",
+					"top": 116,
+					"left": 438,
+					"width": 363,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Enter the initial position of the second selected rotor:"
+				},
+				"txtRotor6": {
+					"type": "text",
+					"top": 134,
+					"left": 438,
+					"width": 363,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Enter the initial position of the third selected rotor:"
+				},
+				"reflecteur": {
+					"type": "input",
+					"top": 177,
+					"left": 809,
+					"width": 38,
+					"height": 17,
+					"dataSource": "Form:C1466.reflecteur",
+					"dataSourceTypeHint": "number",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/reflecteur.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"txtReflecteur": {
+					"type": "text",
+					"top": 177,
+					"left": 438,
+					"width": 363,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Enter the number of the selected reflector (1-2) :"
+				},
+				"message_toDecode": {
+					"type": "input",
+					"top": 274,
+					"left": 533,
+					"width": 307,
+					"height": 145,
+					"dataSource": "Form:C1466.message_decode",
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"message_init": {
+					"type": "input",
+					"top": 274,
+					"left": 60,
+					"width": 317,
+					"height": 145,
+					"dataSource": "Form:C1466.message_init",
+					"scrollbarVertical": "automatic",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/message_init.4dm",
+					"events": [
+						"onLosingFocus",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onAfterEdit"
+					]
+				},
+				"Bouton": {
+					"type": "button",
+					"top": 324,
+					"left": 405,
+					"width": 116,
+					"height": 45,
+					"text": "Enigma",
+					"focusable": false,
+					"method": "ObjectMethods/Bouton.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"cablage": {
+					"type": "input",
+					"top": 221,
+					"left": 739,
+					"width": 108,
+					"height": 17,
+					"dataSource": "Form:C1466.cablage",
+					"textAlign": "center",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/cablage.4dm",
+					"events": [
+						"onLosingFocus"
+					]
+				},
+				"txtcable": {
+					"type": "text",
+					"top": 214,
+					"left": 404,
+					"width": 326,
+					"height": 33,
+					"textAlign": "right",
+					"text": "Enter the 6 pairs of linked letters , enter them in order (i.e. 12 letters) :"
+				},
+				"txt_message_init": {
+					"type": "text",
+					"top": 257,
+					"left": 60,
+					"width": 363,
+					"height": 17,
+					"textAlign": "left",
+					"text": "Message to be encoded"
+				},
+				"txt_message_decode": {
+					"type": "text",
+					"top": 257,
+					"left": 532,
+					"width": 312,
+					"height": 17,
+					"textAlign": "left",
+					"text": "Encoded message"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,1 @@
+check_word (Form:C1466.message_init;Length:C16(Form:C1466.message_init))

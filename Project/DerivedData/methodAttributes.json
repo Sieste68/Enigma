@@ -1,0 +1,55 @@
+﻿{
+	"methods": {
+		"after_wiring_value": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"check_letter": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"check_limit": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"check_word": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"choose_rotor": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"convert_letter2number": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"defineKonstants": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"inverse_rotor": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"passage_in_a_rotor": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"passage_in_reflector": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"pos_init_rotor": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"rank_shift": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"run_enigma_process": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"select_reflector": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"set_numericValues": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"START": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		},
+		"start_wiring_configuration": {
+			"timeStamp": "2020-05-26T16:38:09.000Z"
+		}
+	}
+}

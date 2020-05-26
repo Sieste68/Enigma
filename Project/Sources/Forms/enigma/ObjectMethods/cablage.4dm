@@ -1,0 +1,1 @@
+check_word (Form:C1466.cablage;12)
